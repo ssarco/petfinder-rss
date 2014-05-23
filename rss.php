@@ -250,22 +250,22 @@ if ($location != '' && $pid == '' && $species == '') {
                 }
             } else {
                 foreach ($xml->media->photos->photo as $photo) {
-                    if (isset($_GET['i'])) {
+                   if (isset($_GET['i'])) {
                         if ($_GET['i'] == 't' && $photo['size'] == 't' && $photo['id'] == '1') {
-                            $medial = '<img src="' . $photo . '" alt="' . $name . '"><br />';
+                            $medial = '<img src="http://photos.petfinder.com/photos/pets/' . $id . '/'.$d.'/" alt="' . $name . '"><br />';
                         } elseif ($_GET['i'] == 'm' && $photo['size'] == 'm' && $photo['id'] == '1') {
-                            $medial = '<img src="' . $photo . '" alt="' . $name . '"><br />';
+                            $medial = '<img src="http://photos.petfinder.com/photos/pets/' . $id . '/'.$d.'/" alt="' . $name . '"><br />';
 
                         } elseif ($_GET['i'] == 'l' && $photo['size'] == 'l' && $photo['id'] == '1') {
-                            $medial = '<img src="' . $photo . '" alt="' . $name . '"><br />';
+                            $medial = '<img src="http://photos.petfinder.com/photos/pets/' . $id . '/'.$d.'/" alt="' . $name . '"><br />';
 
                         } elseif ($_GET['i'] == 'x' && $photo['size'] == 'x' && $photo['id'] == '1') {
-                            $medial = '<img src="' . $photo . '" alt="' . $name . '"><br />';
+                            $medial = '<img src="http://photos.petfinder.com/photos/pets/' . $id . '/'.$d.'/" alt="' . $name . '"><br />';
 
                         }
 
                     } elseif ($photo['size'] == 'x' && $photo['id'] == '1' && !isset($_GET['i'])) {
-                        $medial = '<img src="' . $photo . '" alt="' . $name . '"><br />';
+                        $medial = '<img src="http://photos.petfinder.com/photos/pets/' . $id . '/'.$d.'/" alt="' . $name . '"><br />';
                         if ($photo != '' || $photo != null) {
                             $desc = '' . $medial . ' ' . $desc . '';
                         } else {
