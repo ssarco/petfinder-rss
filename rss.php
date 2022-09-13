@@ -28,7 +28,7 @@ if ($location == '' && $pid == '' || $location != '' && $pid == '' && $species =
 
 ?>
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="./js/jquery-3.6.1.min.js"></script>
 <script type="text/javascript" src="./js/minifunc.js"></script>
 </head>
 <body>
@@ -36,13 +36,6 @@ if ($location == '' && $pid == '' || $location != '' && $pid == '' && $species =
 <div id="subhead" style="font-size: small; text-align: center;">
 <div>Data Provided by: <br /><a href="http://www.petfinder.com"><img src="http://www.petfinder.com/banner-images/widgets/40.jpg" border="0" alt="Pet Adoption" /></a></div>
 <div>Application by:<br />Anthony Aldridge<br />
-<b>Any Donations would be greatly appreciated</b><br />
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="2U5PETLJE5U3E">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
 <br />
 <br />
 </div>
